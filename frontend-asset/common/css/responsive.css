@@ -1,0 +1,124 @@
+/*Desktop : Medium : 1280px */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*Tablet layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*Mobile layout: 320px. */
+@media only screen and (max-width: 767px){
+    body {
+        padding-top: 50px;
+    }
+    header .jp-interface {
+        height: 49px!important;
+    }
+    #visbox {
+        height: 100px;
+    }
+    .jp-play {
+        height: 50px;
+    }
+    .jp-state-playing .jp-play,
+    .jp-state-playing .jp-play:focus{
+        width: 100px;
+        margin-left: -25px;
+    }
+    header .jp-audio-stream {
+        width: 85px;
+    }
+    header .download {
+        top: 50px;
+    }
+    .nav-social{
+        margin-right: 0!important;
+        text-align:center;
+    }
+    .nav-social li{
+        display:inline-block!important;
+    }
+    
+    .jp-audio-stream .jp-controls {
+        top: 0;
+        left: 17px;
+    }
+    h2.title {
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    h2.title.reverse {
+        margin-bottom: 18px;
+        font-size: 24px;
+    }
+    .todays-programs .single-program strong{
+        display: none;
+    }
+    .todays-programs .single-program .schedule {
+        padding: 0 30px;
+    }
+    .todays-programs .single-program .rj-names {
+        margin-top: 20px;
+        padding: 0px 30px;
+    }
+    .share-box {
+        text-align: left;
+        padding: 15px 30px;
+    }
+    ._countdown-schedules .panel {
+        margin-left: 0;
+    }
+    ._countdown-schedules .panel-heading > a .serial {
+        font-size: 18px;
+        left: -10px;
+    }
+    #pGallery {
+        padding: 5px 0 30px!important;
+    }
+    .todays-programs{
+        padding: 0;
+        margin: 0;
+    }
+    ._countdown-schedules {
+        padding: 0;
+    }
+    .videos {
+        padding: 0 0 30px;
+    }
+    .rj-profile {
+        padding-top: 0;
+    }
+    .clients {
+        padding: 30px 0;
+    }
+    .about h2.title.reverse{
+        margin-top: 50px!important;
+    }
+    .about {
+        padding: 15px 0px;
+    }
+    #RjModal .rj-info .FlexRow .col-sm-5, #RjModal .rj-info .FlexRow .col-sm-7, #RjModal .rj-info .FlexRow .col-sm-9, #RjModal .rj-info .FlexRow .col-sm-3 {
+        width: 100%;
+    }
+    .pGallery div.col-sm-2, .pGallery div.col-sm-1 {
+        padding: 0!important;
+        border: 1px double transparent!important;
+    }
+    .lb-outerContainer {
+        height: auto!important;
+        width: auto!important;
+    }
+    .lightbox .lb-image{
+        height: auto!important;
+        width: 100%!important;
+        margin-top: 50px!important;
+    }
+}
+
+
+/*Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
