@@ -1192,7 +1192,7 @@ h2.title.reverse {
 }
 /*========= Photos ===========*/
 #photos{
-    padding-top: 70px;
+    padding-top: 1px;
 }
 
 @-webkit-keyframes pulse {
